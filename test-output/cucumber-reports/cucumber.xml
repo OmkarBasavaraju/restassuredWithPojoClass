@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.422">
+<testcase classname="Verification of Create User API" name="Access Token Generation" time="4.945">
+<failure message="JSONObject[&quot;access_token&quot;] not found." type="org.json.JSONException"><![CDATA[Given I pass the username and password and accesstoken should generated.....failed
+When I pass the accesstoken and post a request..............................skipped
+Then Order should be created................................................skipped
+
+StackTrace:
+org.json.JSONException: JSONObject["access_token"] not found.
+	at org.json.JSONObject.get(JSONObject.java:572)
+	at API.CreateUserApi.getAccessToken(CreateUserApi.java:29)
+	at RestAssuredStepDefnition.createUserStepDefinitions.i_pass_the_username_and_password_and_accesstoken_should_generated(createUserStepDefinitions.java:24)
+	at ✽.I pass the username and password and accesstoken should generated(file:///C:/Users/IGSA937002/eclipse-workspace/BDDRestAssured/src/test/resources/features/createOrder.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

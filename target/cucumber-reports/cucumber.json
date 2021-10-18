@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-28T02:37:47.217Z",
+        "line": 3,
+        "name": "Access Token Generation",
+        "description": "",
+        "id": "verification-of-create-user-api;access-token-generation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6099000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I pass the username and password and accesstoken should generated",
+            "match": {
+              "location": "RestAssuredStepDefnition.createUserStepDefinitions.i_pass_the_username_and_password_and_accesstoken_should_generated()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2091000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I pass the accesstoken and post a request",
+            "match": {
+              "location": "RestAssuredStepDefnition.createUserStepDefinitions.i_pass_the_accesstoken_and_post_a_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Order should be created",
+            "match": {
+              "location": "RestAssuredStepDefnition.createUserStepDefinitions.order_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Create User API",
+    "description": "",
+    "id": "verification-of-create-user-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/createOrder.feature",
+    "tags": []
+  }
+]

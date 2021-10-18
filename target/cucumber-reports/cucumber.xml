@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.088">
+<testcase classname="Verification of Create User API" name="Access Token Generation" time="8.593">
+<system-out><![CDATA[Given I pass the username and password and accesstoken should generated.....passed
+When I pass the accesstoken and post a request..............................passed
+Then Order should be created................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
